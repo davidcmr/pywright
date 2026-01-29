@@ -7,7 +7,9 @@ authors = [
     { name = "David Christie", email = "david.christie@mediaradar.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "playwright>=1.57.0",
+]
 
 [project.scripts]
 pywright = "pywright:main"
